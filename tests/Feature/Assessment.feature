@@ -1,6 +1,4 @@
-Feature: The Internet Guinea Pig Website
-
-  
+Feature: Validation on ecommerce webpage
 
   Scenario Outline: Verify whether user is able to successfully register in the Automation test Store
     Given Launch "<Url>"

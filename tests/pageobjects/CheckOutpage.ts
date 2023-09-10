@@ -28,6 +28,8 @@ class CheckOutPage extends Page {
 
         let Status : Boolean = false;
 
+        console.log("Status"+Status)
+
         for (const element of elements) {
  
             const text = await element.getText();

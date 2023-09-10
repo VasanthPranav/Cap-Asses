@@ -16,7 +16,7 @@
     "wdio-wait-for": "^3.0.6"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdio": "npm install && tsc && wdio run ./wdio.conf.ts"
   },
   "dependencies": {
     "exceljs": "^4.3.0",
